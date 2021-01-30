@@ -1,6 +1,4 @@
 import React from 'react'
-import Thumbnail from './Thumbnail'
-import Button from '../estilos'
 
 
 const ActiveItem = (props) => {
