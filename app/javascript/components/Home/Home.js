@@ -17,7 +17,7 @@ import Table from './Table/Table'
 class Home extends Component {
   constructor(){
     super()
-    this.state = {
+    this.state = { 
       course_modules: [
         { id:1, title: '1. Video 1', description: 'desc1 ', active: false},
         { id:2, title: '2. Video 2', description: 'desc2', active: false},
