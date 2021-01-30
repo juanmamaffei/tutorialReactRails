@@ -12,6 +12,7 @@ Tableofcontents/List
 
 import React, { Component } from 'react';
 import Jumbotron from './Jumbotron'
+import Table from './Table/Table'
 
 class Home extends Component {
   constructor(){
@@ -27,7 +28,8 @@ class Home extends Component {
   }
   render() {
     return(
-      <div><Jumbotron/></div>
+      <div><Jumbotron/>
+      <Table course_modules={this.state.course_modules}/></div>
     )
   }
 }
