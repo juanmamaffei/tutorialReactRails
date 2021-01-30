@@ -18,7 +18,7 @@ const Item = (props) => {
                                     <h4>{props.title}</h4>
                                     <p>{props.description}</p> 
                                     <div className="cta-wrapper">
-                                        <Button className="btn cta-btn">Ver</Button>
+                                        <Button onClick={props.cambioVideo} className="btn cta-btn">Ver</Button>
                                     </div>
                                 </div>
                             </div>

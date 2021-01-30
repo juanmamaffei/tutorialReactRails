@@ -26,10 +26,23 @@ class Home extends Component {
       ]
     }
   }
+
+  cambioVideo(item, event){
+    event.preventDefault()
+
+    let modulos = [...this.state.course_modules]
+
+    modulos.map(d=>{d.active = false})
+
+    item.active = !item.active
+
+    this.setState({modulos})
+  }
+
   render() {
     return(
       <div><Jumbotron/>
-      <Table course_modules={this.state.course_modules}/></div>
+      <Table cambioVideo={this.cambioVideo.bind(this)} course_modules={this.state.course_modules}/></div>
     )
   }
 }
