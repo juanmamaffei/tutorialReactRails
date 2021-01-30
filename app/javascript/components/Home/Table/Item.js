@@ -4,6 +4,7 @@ import Button from '../estilos'
 
 
 const Item = (props) => {
+    
     return(
         <div className="row pt-4 pb-4">
             <div className="col-md-10 offser-md-1">
@@ -11,7 +12,7 @@ const Item = (props) => {
                     <div className="card px-5">
                         <div className="row">
                             <div className="col-md-4">
-                                <Thumbnail/>
+                                <Thumbnail url={props.url}/>
                             </div>
                             <div className="col-md-8">
                                 <div className="pt-4 pb-4">
