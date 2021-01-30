@@ -1,24 +1,11 @@
-# README
+# Descripción
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este proyecto permite mostrar una serie de video-tutoriales.
+Está construido con Ruby on Rails 6 y usa React en el frontend.
 
-Things you may want to cover:
+## Instrucciones para la prueba
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Clonar repositorio.
+* Correr migraciones (rails db:migrate)
+* Cargar datos de prueba (rails db:seeds)
+* Correr el servidor de prueba (rails server y ./bin/webpack_dev_server)
